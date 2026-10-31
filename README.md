@@ -1,3 +1,7 @@
+# fullstack_developer_capstone
+
+**Repository:** hamza0x0/IBM-Full-Stack-Developer-Capstone-Project  
+**Project Name:** fullstack_developer_capstone
 # Car Dealership Application - Full Stack Capstone Project
 
 ![Python](https://img.shields.io/badge/python-v3.12-blue.svg)
