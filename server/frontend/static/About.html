@@ -1,19 +1,24 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Best Cars</title>
     <link rel="stylesheet" href="/static/style.css">
     <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
+<body>
 <div>
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
     <div class="container-fluid">
-      <h2 style="padding-right: 5%;">THE WORST Dealerships</h2>
+      <h2 style="padding-right: 5%;">Best Cars</h2>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+            <a class="nav-link" style="font-size: larger;" href="/">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
@@ -25,49 +30,60 @@
       </div>
     </div>
   </nav>
-  
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
-        <h1>About Us</h1>
-  <p>
-  Best Cars is a full-stack car dealership application that helps users discover
-  dealerships, explore car makes and models, read customer reviews, and share
-  their own purchase experiences.
-</p>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 26%;">
-        <img class="card-img-top" src="https://cdn.vox-cdn.com/thumbor/5Lzaa0wmV_LxdqVPofeNU_VlrKk=/129x0:1306x883/1400x1050/filters:focal(129x0:1306x883):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/50520715/Screen_Shot_2016-08-25_at_10.22.49_AM.0.0.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Jean-Ralphio</p>
-          <p>"Sales Executive"</p>
-          <p class="card-text">Jean-Ralphio is flush with cash, baby! He's ready to buy and sell THE WORST you got!</p>
-          <p>JRSaperstein@theworstdealer.com</p>
-        </div>
-      </div>
 
-      <div class="card" style="width: 26%;">
-        <img class="card-img-top" src="https://static.wikia.nocookie.net/parksandrecreation/images/7/73/Mona-Lisa_Saperstein.png/revision/latest/thumbnail/width/360/height/450?cb=20130326204535" alt="Card image">
-        <div class="card-body">
-          <p class="title">Mona-Lisa</p>
-          <p>"Inventory Manager"</p>
-          <p class="card-text">Mona-Lisa is THE WOOOORST! She's always got her hand out "MONEY PWEEASE!!!"</p>
-          <p>MLSaperstein@theworstdealer.com</p>
-        </div>
-      </div>
+  <div class="card" style="width: 80%; margin: auto; margin-top: 5%;">
+    <div class="banner" name="about-header">
+      <h1>About Us</h1>
+      <p>
+        Best Cars is a full-stack car dealership application that helps users discover
+        dealerships, explore car makes and models, read customer reviews, and share
+        their own purchase experiences.
+      </p>
 
-      <div class="card" style="width: 26%;">
-        <img class="card-img-top" src="https://static.wikia.nocookie.net/parksandrecreation/images/a/a9/Saperstein.jpg/revision/latest?cb=20140920202037" alt="Card image">
-        <div class="card-body">
-          <p class="title">Lu</p>
-          <p>Owner & CEO</p>
-          <p class="card-text">Lu actually owns the operation, but has nothing at all to do with it. He's hoping this will teach his kids some responsibility.</p>
-          <p>DrLuSaperstein@theworstdealer.com</p>
+      <div style="display: flex; flex-direction: row; margin: auto; gap: 2%;">
+
+        <div class="card" style="width: 30%;">
+          <img class="card-img-top" src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80" alt="Sales Executive">
+          <div class="card-body">
+            <p class="title">Jean-Ralphio</p>
+            <p>Sales Executive</p>
+            <p class="card-text">
+              Jean-Ralphio helps customers find the right vehicle and guides them
+              through the purchasing process with a friendly and energetic approach.
+            </p>
+            <p>JRSaperstein@bestcars.com</p>
+          </div>
         </div>
+
+        <div class="card" style="width: 30%;">
+          <img class="card-img-top" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80" alt="Inventory Manager">
+          <div class="card-body">
+            <p class="title">Mona-Lisa</p>
+            <p>Inventory Manager</p>
+            <p class="card-text">
+              Mona-Lisa manages the dealership inventory, ensures vehicle information
+              is accurate, and coordinates the availability of new and used cars.
+            </p>
+            <p>MLSaperstein@bestcars.com</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 30%;">
+          <img class="card-img-top" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80" alt="Owner and CEO">
+          <div class="card-body">
+            <p class="title">Lu</p>
+            <p>Owner & CEO</p>
+            <p class="card-text">
+              Lu leads Best Cars and oversees the company’s strategy, customer
+              experience, and long-term growth in the automotive market.
+            </p>
+            <p>DrLuSaperstein@bestcars.com</p>
+          </div>
+        </div>
+
       </div>
     </div>
-    </div>
-    </div>
-    
+  </div>
 </div>
-
+</body>
 </html>
