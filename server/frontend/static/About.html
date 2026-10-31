@@ -3,87 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Best Cars</title>
+    <title>About Us - Best Cars Dealership</title>
     <link rel="stylesheet" href="/static/style.css">
     <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
+
 <body>
-<div>
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
-    <div class="container-fluid">
-      <h2 style="padding-right: 5%;">Best Cars</h2>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
-          </li>
-        </ul>
-      </div>
+    <!-- Barre de navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: darkturquoise; height: 1in;">
+        <div class="container-fluid">
+            <h2 style="padding-right: 5%;">Dealerships</h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-size: larger;" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" style="font-size: larger;" aria-current="page" href="/about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenu -->
+    <div class="container" style="margin-top: 30px;">
+        <div class="card" style="width: 100%; margin-bottom: 30px;">
+            <div class="banner" name="about-header">
+                <h1>About Us</h1>
+                Welcome to Best Cars dealership, home to the best cars in North America. We deal in sale of
+                domestic and imported cars at reasonable prices.
+            </div>
+        </div>
+
+        <div style="display: flex; flex-direction: row; justify-content: space-between; flex-wrap: wrap; gap: 20px;">
+            <div class="card" style="width: 30%; min-width: 260px;">
+                <img class="card-img-top" src="https://randomuser.me/api/portraits/men/32.jpg" alt="Daniel Carter">
+                <div class="card-body">
+                    <p class="title"><b>Daniel Carter</b></p>
+                    <p>Chief Executive Officer</p>
+                    <p>Daniel has 20 years of experience in automotive retail and leads the company's national
+                        growth strategy.</p>
+                    <p>daniel.carter@bestcars.com</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 30%; min-width: 260px;">
+                <img class="card-img-top" src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Mitchell">
+                <div class="card-body">
+                    <p class="title"><b>Sarah Mitchell</b></p>
+                    <p>Head of Sales</p>
+                    <p>Sarah manages our dealership network and makes sure every customer finds the right car at
+                        the right price.</p>
+                    <p>sarah.mitchell@bestcars.com</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 30%; min-width: 260px;">
+                <img class="card-img-top" src="https://randomuser.me/api/portraits/men/75.jpg" alt="James Rodriguez">
+                <div class="card-body">
+                    <p class="title"><b>James Rodriguez</b></p>
+                    <p>Customer Service Manager</p>
+                    <p>James leads our support team and handles customer feedback and after-sales services.</p>
+                    <p>james.rodriguez@bestcars.com</p>
+                </div>
+            </div>
+        </div>
     </div>
-  </nav>
-
-  <div class="card" style="width: 80%; margin: auto; margin-top: 5%;">
-    <div class="banner" name="about-header">
-      <h1>About Us</h1>
-      <p>
-        Best Cars is a full-stack car dealership application that helps users discover
-        dealerships, explore car makes and models, read customer reviews, and share
-        their own purchase experiences.
-      </p>
-
-      <div style="display: flex; flex-direction: row; margin: auto; gap: 2%;">
-
-        <div class="card" style="width: 30%;">
-          <img class="card-img-top" src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80" alt="Sales Executive">
-          <div class="card-body">
-            <p class="title">Jean-Ralphio</p>
-            <p>Sales Executive</p>
-            <p class="card-text">
-              Jean-Ralphio helps customers find the right vehicle and guides them
-              through the purchasing process with a friendly and energetic approach.
-            </p>
-            <p>JRSaperstein@bestcars.com</p>
-          </div>
-        </div>
-
-        <div class="card" style="width: 30%;">
-          <img class="card-img-top" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80" alt="Inventory Manager">
-          <div class="card-body">
-            <p class="title">Mona-Lisa</p>
-            <p>Inventory Manager</p>
-            <p class="card-text">
-              Mona-Lisa manages the dealership inventory, ensures vehicle information
-              is accurate, and coordinates the availability of new and used cars.
-            </p>
-            <p>MLSaperstein@bestcars.com</p>
-          </div>
-        </div>
-
-        <div class="card" style="width: 30%;">
-          <img class="card-img-top" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80" alt="Owner and CEO">
-          <div class="card-body">
-            <p class="title">Lu</p>
-            <p>Owner & CEO</p>
-            <p class="card-text">
-              Lu leads Best Cars and oversees the company’s strategy, customer
-              experience, and long-term growth in the automotive market.
-            </p>
-            <p>DrLuSaperstein@bestcars.com</p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-</div>
 </body>
 </html>
